@@ -1,4 +1,4 @@
-package hw2;
+package com.popova.hw2;
 
 public class MinimalNum2 {
     public static void main(String args[]){

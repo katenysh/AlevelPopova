@@ -1,4 +1,4 @@
-package hw1;
+package com.popova.hw1;
 
 public class MyName {
     public static class Main {

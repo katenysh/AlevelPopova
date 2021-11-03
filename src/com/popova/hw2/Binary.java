@@ -1,4 +1,4 @@
-package hw2;
+package com.popova.hw2;
 
 import java.util.Scanner;
 

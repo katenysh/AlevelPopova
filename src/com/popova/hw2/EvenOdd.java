@@ -1,4 +1,4 @@
-package hw2;
+package com.popova.hw2;
 
 public class EvenOdd {
     public static void main(String[] args){
