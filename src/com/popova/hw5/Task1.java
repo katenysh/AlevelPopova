@@ -2,7 +2,7 @@ package com.popova.hw5;
 
 import java.util.Arrays;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
 
         int[] num = new int[4];
