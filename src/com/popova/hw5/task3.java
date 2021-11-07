@@ -31,4 +31,5 @@ public class task3 {
         }
         System.out.println(Arrays.toString(mas2));
     }
+
 }
