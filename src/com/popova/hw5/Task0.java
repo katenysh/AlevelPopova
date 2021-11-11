@@ -1,9 +1,8 @@
 package com.popova.hw5;
 
-
 import java.util.Arrays;
 
-public class task0 {
+public class Task0 {
 
     public static void main(String[] args) {
 
