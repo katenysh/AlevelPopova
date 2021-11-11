@@ -70,7 +70,7 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "manufacturer=" + manufacturer +
+                "manufacturer=" + manufacturer.getRussianName() +
                 ", engine=" + engine +
                 ", colour='" + colour + '\'' +
                 ", petrol=" + petrol +

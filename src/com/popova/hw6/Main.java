@@ -14,10 +14,6 @@ public class Main {
         final Car car1 = new Car(Manufacturer.BMW, engine1, "black");
         final Car car2 = new Car(Manufacturer.TOYOTA, engine2, "white");
 
-        final Manufacturer[] values = Manufacturer.values();
-        for (Manufacturer value : values) {
-            System.out.println(value);
-        }
         System.out.println(car1);
         Garage.checkCar(car1);
 

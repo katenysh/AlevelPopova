@@ -5,7 +5,7 @@ public enum Manufacturer {
     FORD("Форд"),
     TOYOTA("Тойота");
 
-    String russianName;
+   private String russianName;
 
     Manufacturer(String russianName) {
         this.russianName = russianName;
