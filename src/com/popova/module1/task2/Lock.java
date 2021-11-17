@@ -5,7 +5,7 @@ public class Lock {
     private int[] array;
 
     public Lock(int[] array) {
-        this.array = array.clone();
+        this.array = array == null ? null : array.clone();
     }
 
     public int[] getArray() {
