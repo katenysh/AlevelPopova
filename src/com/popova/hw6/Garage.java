@@ -13,9 +13,4 @@ public class Garage {
             System.out.println("Не хватает бензина и мощности двигателя.");
         }
     }
-
-    @Override
-    public String toString() {
-        return "Garage{}";
-    }
 }
