@@ -10,19 +10,9 @@ public class Game {
     private final Random random = new Random();
 
     public void doAction(Animal animal) {
+        animal.addHungry(-3 * animal.getIndex());
 
-        double factor = 1.0 * animal.isHungry() * animal.isVeryUnHappy();
-        if (animal.isIll()) {
-            factor *= 2;
-        }
-
-        double hungry = animal.getHungry();
-        hungry -= 3 * factor;
-        animal.addHungry(hungry);
-
-        double happy = animal.getHappy();
-        happy += 6;
-        animal.addHappy(happy);
+        animal.addHappy(6);
 
         animal.addMoney(random.nextInt(10));
 

@@ -18,12 +18,9 @@ public class Work {
             return;
         }
 
-        double factor = 1.0 * animal.isHungry() * animal.isVeryUnHappy();
         final int randomNumber1 = random.nextInt(100);
         if (randomNumber1 <= 10) {
-            if (animal.isIll()) {
-                factor *= 2;
-            }
+            double factor = animal.getIndex();
 
             final int randomNumber2 = random.nextInt(100);
             if (randomNumber2 <= 30) {

@@ -79,11 +79,11 @@ public class Animal {
         return (happy < 20);
     }
 
-    public double isVeryUnHappy() {
+    private double isVeryUnHappy() {
         return (happy < 10) ? 1.2 : 1;
     }
 
-    public double isHungry() {
+    private double isHungry() {
         return (hungry < 50.0) ? 1.5 : 1.0;
     }
 
@@ -95,12 +95,20 @@ public class Animal {
         this.presents = presents;
     }
 
+    private int isIllIndex() {
+        return isIll ? 2 : 1;
+    }
+
     public boolean isIll() {
         return isIll;
     }
 
     public void setIll(boolean isIll) {
         this.isIll = isIll;
+    }
+
+    public double getIndex() {
+        return 1.0 * isHungry() * isVeryUnHappy() * isIllIndex();
     }
 
     @Override
